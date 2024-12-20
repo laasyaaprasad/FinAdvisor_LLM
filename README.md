@@ -32,11 +32,13 @@ Preliminary results indicate that the model successfully provides accurate, real
 * **Cleaning and Preprocessing:** Raw financial data undergoes thorough cleaning and preprocessing to prepare it for model training.
 * **Text Normalization:** The data is standardized by removing special characters, converting text to lowercase, and handling punctuation for consistency.
 * **Tokenization:** Text data is broken down into tokens to facilitate embedding and storage in the vector database.
-Embedding and Storage in Qdrant: Processed data is transformed into vector embeddings and stored in Qdrant, a vector database optimized for fast and efficient retrieval. This enables quick access to relevant information during model inference, ensuring that data is organized and readily available when needed.
 
 #### c. Modeling
 * **Fine-Tuning with LoRA (Low-Rank Adaptation):**
 **LoRA Overview:** LoRA is used to fine-tune the language model, adjusting a minimal set of parameters that allow it to specialize in financial contexts without requiring complete retraining.
+![LoRA and QLoRA](https://github.com/user-attachments/assets/cfd2633f-5ea5-4664-81df-88cf1b7f67d8)
+![adapters](https://github.com/user-attachments/assets/541b56ab-6f8c-4d29-a20e-a48255d64679)
+
 **Training:** Through LoRA adaptation, the model learns to interpret financial data, allowing it to deliver accurate and context-sensitive financial advice.
 * **Performance Tracking:** Model performance is continuously monitored using Comet, a machine learning experiment management tool that tracks metrics and validates fine-tuning accuracy.
 
