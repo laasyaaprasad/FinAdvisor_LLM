@@ -22,9 +22,9 @@ The tool’s development involves data collection, preprocessing, fine-tuning, a
 #### Results
 Preliminary results indicate that the model successfully provides accurate, real-time financial advice tailored to individual queries. The combination of LLM fine-tuning and real-time retrieval enables a responsive, contextually aware financial assistant that adapts to dynamic user needs. This tool demonstrates the potential to make expert financial advice more accessible, empowering users to make informed decisions with ease and efficiency.
 
-##. Methods and Technical Implementation
+## Methods and Technical Implementation
 
-####a. Data Collection
+#### a. Data Collection
 * **Sources:** Financial data is collected from two key sources—the Alpaca News API, which provides real-time financial news articles, and the Hugging Face finance-alpaca dataset, a question-answer dataset focused on finance. These sources supply diverse and current financial information essential for building a reliable, contextually aware financial advisory model.
 
 * **Purpose:** By using up-to-date and comprehensive financial data, the model can better understand trends, terminology, and financial context, enhancing its ability to provide accurate, relevant advice.
